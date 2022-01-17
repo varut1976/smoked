@@ -1,0 +1,147 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} */
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.header, .footer {
+    background: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.flex__header,
+.about,
+.flex__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    margin: 105px auto 85px;
+}
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.nav__link{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: #000;
+    transition: 300ms;
+}
+
+.btn{
+    width: 212px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn__orange{
+    background: #FF7143;
+    }
+
+.btn__orange:hover{
+    background: #c4694b;
+    transition: 500ms;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467.24px;
+    margin-bottom: 30px;
+}
+
+.about__text{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    max-width: 410px;
+    margin-bottom: 50px;
+}
+
+.btn__violet{
+    background: #5454D4;
+}
+
+.btn__violet:hover{
+    background: #4343a7;
+    transition: 500ms;
+}
+
+.btn__transparent{
+    background: none;
+    border: 1px solid #5454D4;
+    color: #5454D4;
+    margin-left: 35px;
+}
+
+.btn__transparent:hover{
+    background: #d6d6fa;
+    transition: 500ms;
+}
+
+.footer{
+    padding: 53px 0 53px;
+}
+
+.index__tutle{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 38px;
+}
+
+.input{
+    width: 302px;
+    height: 60px;
+    border: 1px solid #7087FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #000000;
+    margin-right: 39px;
+    padding-left: 14px;
+}
+
